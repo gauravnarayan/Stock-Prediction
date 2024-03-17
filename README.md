@@ -11,6 +11,6 @@ Created a plot of predicted stock prices and actual stock prices.
 
 Using a proper window of size 20 to predict the next stock price value using an LSTM.
 To do this, flattened the stock data first. Then re-shape this one-dimensional array into a tensor of shape (?, 20, 1).
-Got every stock price (21st,22nd,23rd....5016) and put it into the target. 
+Got every stock price (21st,22nd,23rd....5000..) and put it into the target. 
 Used train:test split ratio of 75:25. 
 Created a plot of predicted stock prices and actual stock prices.
